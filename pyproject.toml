@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.yapf]
+based_on_style = "yapf"
+allow_multiline_lambdas = true
+allow_multiline_dictionary_keys = true
+arithmetic_precedence_indication = true
+blank_line_before_nested_class_or_def = false
+column_limit = 120
